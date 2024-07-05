@@ -1,0 +1,68 @@
+/* Productos d catálogo */
+.main h3{
+    font-size: 28px;
+}
+.contenedor-productos{
+    display: flex;
+    grid-gap: 10px;
+    margin: 30px;
+    justify-content: space-around;
+  }
+.producto {
+    border: 2px solid #49362b;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.producto:before {
+    content: "Nuevo";
+    background: #620907;
+    padding: 10px;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    transform: rotate(-90deg);
+    color: white;
+}
+.producto_info{
+    width: 40%;
+    border: 2px solid #49362b;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+
+}
+.producto_img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.producto_nombre{
+    text-align: center;
+}
+.precio {
+    font-size: 20px;
+    color: #0f2449;
+    font-weight: bold;
+}
+  .boton{
+    background-color: #a3a3a3;
+    border: 1px solid;
+    color: #000;
+    border-radius: 8px;
+    font-size: 17px;
+    padding: 4px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+}
+.info p{
+    font-size: 20px;
+}
+.video{
+    width: 30%;
+    height: auto;
+    margin: 2% 8px -12px 30px;
+
+}
